@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <!-- forms -->
+    <h2>Tutorial of HTML FORMS</h2>
+    <form action="backend.php">
+        <label for="Name"> Name:</label>
+        <div>
+           <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <div>
+           Gender: Male<input type="radio" name="myGender" > 
+           Female<input type="radio" name="myGender" >
+           Other<input type="radio" name="myGender" >
+        </div>
+        <br>
+        <label for="Role"> Role:</label>
+        <div>
+            <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+        <label for="email"> Email:</label>
+        <div>
+           <input type-"email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="Bonus"> Bonus:</label>
+        <div>
+            <input type="number" name="myBonus" id="Bonus">
+        </div>
+        <br>
+        <label for="about">  Write about yourself:</label>
+        <div>
+           <textarea name="myText" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="study">Are you an Engineering Student:</label>
+        <select name="myStudy" id="study">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br>
+        <div>
+            Are you eligable?: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+           Date:<input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+        
+        
+
+
+
+
+    </form> 
+</body>
+</html>

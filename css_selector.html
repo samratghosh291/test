@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /* Element selector */
+        p{
+            border: 2px solid black;
+        }
+
+        /* Id Selector */
+        #firstPara{
+         color:red;
+         background-color: antiquewhite;
+        }
+
+
+        /*Class selector */
+        .colorBlue{
+            color:blue;
+        }
+        .bgColor{
+            background-color: aqua;
+        }
+
+
+        /* Grouping selector */
+        footer,span{
+            background-color: rgb(227, 132, 14);
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors:</h3>
+    <p id="firstPara">This is a simple paragrhph to demonstrate css selector</p>
+    <p class="colorBlue bgColor">This is another simple paragrhph to demonstrate css selector</p>
+    <div>
+        <p>This is yet another simple aragrhph to demonstrate css selector</p>
+        <footer>This is footer</footer>
+        <hr>
+        <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+    </div>
+</body>
+</html>
+<hr>
+<h4 style="color: blue;">Important:</h4>
+precedence-> id will be more prioritized than class
